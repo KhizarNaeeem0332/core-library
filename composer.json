@@ -17,7 +17,8 @@
     "require": {
 		"illuminate/database": "^5.5",
         "illuminate/validation": "^5.5",
-        "illuminate/filesystem": "^5.5"
+        "illuminate/filesystem": "^5.5",
+	    "filp/whoops": "^2.1"
 	},
     "require-dev": {
     },
