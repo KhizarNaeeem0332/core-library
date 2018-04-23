@@ -3,13 +3,13 @@
 require_once 'init.php';
 
 
-$validate = new \Bindeveloperz\Core\Validation\Validator();
+$validate = new \Bindeveloperz\Core\Validation\Validator($db);
 
 
 
 
 
-$errors = $validate->validate(["name" => "qwe123" , "age" => 12] , ["name" => "required"] , ["name.required" => "name is required"]);
+$errors = $validate->validate(["username" => "master" , "age" => 12] , ["username" => "unique:users"] , ["username.unique" => "name is required"]);
 
 
 
@@ -24,5 +24,3 @@ else
 {
     echo "all is well";
 }
-
-
