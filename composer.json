@@ -15,12 +15,12 @@
         }
     ],
     "require": {
-		"illuminate/database": "^5.5",
-        "illuminate/validation": "^5.5",
-        "illuminate/filesystem": "^5.5",
-        "illuminate/pagination": "^5.5",
-        "illuminate/events": "^5.5",
-        "illuminate/config": "^5.5",
+		"illuminate/database": "5.5.*",
+        "illuminate/validation": "5.5.*",
+        "illuminate/filesystem": "5.5.*",
+        "illuminate/pagination": "5.5.*",
+        "illuminate/events": "5.5.*",
+        "illuminate/config": "5.5.*",
         "filp/whoops": "^2.1",
         "doctrine/dbal": "^2.7",
         "fzaninotto/faker": "^1.7"

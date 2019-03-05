@@ -12,7 +12,7 @@ return
             'driver' => 'mysql',
             'host' => 'localhost',
             'port' => '3306',
-            'database' => 'crm',
+            'database' => 'core',
             'username' => 'root',
             'password' => '',
             'unix_socket' => '',

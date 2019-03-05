@@ -38,3 +38,6 @@ if($_config->get("app.logQuery"))
 {
     $_db::enableQueryLog();
 }
+
+
+require_once 'Models/Snippet.php';
